@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    
+}
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    padding: 1vw;
+}
+
+.list:hover{
+    background-color: black;
+    color: aliceblue
+}
+
+nav .logo{
+    padding: 1vw;
+}
+nav h1:hover{
+    background-color: black;
+    color: white;
+    
+}
+nav h1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+.container-text{
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+
+.title{
+    font-size:50px;
+}
+
+
+.input input{
+    width: 25%;
+    border: dotted;
+    
+}
+.label label{
+    font-size:3vw;
+}
+
+.content-text{
+    border: dotted;
+    margin: 5vh 0% 5vw 0%;
+}
+
+.field button{
+    margin-top: 2vh;
+    width:10vw
+}
+textarea{
+    border: dotted;
+    padding: 5vh;
+    letter-spacing: 2px;
+}
+.options{
+    margin-top: 5vh;
+}
+.options input{
+    border: dotted;
+    width: 25%;
+    margin-bottom: 2vh;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
